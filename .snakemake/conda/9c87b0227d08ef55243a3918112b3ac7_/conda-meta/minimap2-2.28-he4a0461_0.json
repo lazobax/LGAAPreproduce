@@ -1,0 +1,186 @@
+{
+  "build": "he4a0461_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "k8",
+    "libgcc-ng >=12",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "zlib"
+  ],
+  "extracted_package_dir": "/home/lazo_ozal/miniforge3/pkgs/minimap2-2.28-he4a0461_0",
+  "features": "",
+  "files": [
+    "bin/minimap2",
+    "bin/paftools.js",
+    "bin/sdust",
+    "include/bseq.h",
+    "include/kalloc.h",
+    "include/kdq.h",
+    "include/ketopt.h",
+    "include/khash.h",
+    "include/krmq.h",
+    "include/kseq.h",
+    "include/ksort.h",
+    "include/ksw2.h",
+    "include/kthread.h",
+    "include/kvec.h",
+    "include/minimap.h",
+    "include/mmpriv.h",
+    "include/sdust.h",
+    "lib/libminimap2.a"
+  ],
+  "fn": "minimap2-2.28-he4a0461_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/lazo_ozal/miniforge3/pkgs/minimap2-2.28-he4a0461_0",
+    "type": 1
+  },
+  "md5": "27d83cfe6bca3eb50aaeb6334371122d",
+  "name": "minimap2",
+  "package_tarball_full_path": "/home/lazo_ozal/miniforge3/pkgs/minimap2-2.28-he4a0461_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/minimap2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/minimap2_1711553196699/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "63281336c25fe57c7b7594b5ccf44a387b504ea81fbc67050af6095acfa0b5f2",
+        "sha256_in_prefix": "648e385cba2c5964cacd8cda06504aa75a7ea5f45393400dad52ad587a06b542",
+        "size_in_bytes": 991976
+      },
+      {
+        "_path": "bin/paftools.js",
+        "path_type": "hardlink",
+        "sha256": "0539eb3e4217920abedca07dd255a7955825a26c3f3dbdcaa2e2631ed4c99c3c",
+        "sha256_in_prefix": "0539eb3e4217920abedca07dd255a7955825a26c3f3dbdcaa2e2631ed4c99c3c",
+        "size_in_bytes": 122229
+      },
+      {
+        "_path": "bin/sdust",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/minimap2_1711553196699/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "6ce1993b03796f95f30b997a1c6ad3de5fe8d13d7d54e579dbdd08d56c0d8dae",
+        "sha256_in_prefix": "e067475aa7fee5da5942eb2469976491128901cac5156e0038076bdaa7c9d668",
+        "size_in_bytes": 64744
+      },
+      {
+        "_path": "include/bseq.h",
+        "path_type": "hardlink",
+        "sha256": "14f0359aa4878a9813429337acfc2c06872503e6fdbda9e40f4a1f05e4fe4a0b",
+        "sha256_in_prefix": "14f0359aa4878a9813429337acfc2c06872503e6fdbda9e40f4a1f05e4fe4a0b",
+        "size_in_bytes": 1811
+      },
+      {
+        "_path": "include/kalloc.h",
+        "path_type": "hardlink",
+        "sha256": "93ecdbe4ed4b596c037d5c3032c837ce030ba4bf98080bdf2bb0c3df0177b06d",
+        "sha256_in_prefix": "93ecdbe4ed4b596c037d5c3032c837ce030ba4bf98080bdf2bb0c3df0177b06d",
+        "size_in_bytes": 2630
+      },
+      {
+        "_path": "include/kdq.h",
+        "path_type": "hardlink",
+        "sha256": "9d2e21abb886ba500724d3a75b33a3301d652a9002170bd3b7d6e22c2b8cd68a",
+        "sha256_in_prefix": "9d2e21abb886ba500724d3a75b33a3301d652a9002170bd3b7d6e22c2b8cd68a",
+        "size_in_bytes": 4400
+      },
+      {
+        "_path": "include/ketopt.h",
+        "path_type": "hardlink",
+        "sha256": "f1f4aea1e269d7327e87c6bdf536c1008cefb55a4ef102f67d234bba642b985c",
+        "sha256_in_prefix": "f1f4aea1e269d7327e87c6bdf536c1008cefb55a4ef102f67d234bba642b985c",
+        "size_in_bytes": 3969
+      },
+      {
+        "_path": "include/khash.h",
+        "path_type": "hardlink",
+        "sha256": "8657c031be13afccec83469d9d1c178f1c40cac2ad51986b27234985b8bd1db9",
+        "sha256_in_prefix": "8657c031be13afccec83469d9d1c178f1c40cac2ad51986b27234985b8bd1db9",
+        "size_in_bytes": 21381
+      },
+      {
+        "_path": "include/krmq.h",
+        "path_type": "hardlink",
+        "sha256": "5c335783a84bb2f27fe44ccc66d1fbc78fbf5dc718fddb5f64acc3dda01d28ed",
+        "sha256_in_prefix": "5c335783a84bb2f27fe44ccc66d1fbc78fbf5dc718fddb5f64acc3dda01d28ed",
+        "size_in_bytes": 16446
+      },
+      {
+        "_path": "include/kseq.h",
+        "path_type": "hardlink",
+        "sha256": "a4a2b959d849965c48ca33c0c3714ab369a33e0e34538f3f1258d8194d1e1662",
+        "sha256_in_prefix": "a4a2b959d849965c48ca33c0c3714ab369a33e0e34538f3f1258d8194d1e1662",
+        "size_in_bytes": 8780
+      },
+      {
+        "_path": "include/ksort.h",
+        "path_type": "hardlink",
+        "sha256": "2ed9cf5fc6bcae55ee961df7222fe1ef0ea8f5dc93156990f5ab0c277e0026e0",
+        "sha256_in_prefix": "2ed9cf5fc6bcae55ee961df7222fe1ef0ea8f5dc93156990f5ab0c277e0026e0",
+        "size_in_bytes": 5145
+      },
+      {
+        "_path": "include/ksw2.h",
+        "path_type": "hardlink",
+        "sha256": "ce9dae2af60f3e9a0422d7137b7eab284a9b6124d935bc8adfb0d496609622eb",
+        "sha256_in_prefix": "ce9dae2af60f3e9a0422d7137b7eab284a9b6124d935bc8adfb0d496609622eb",
+        "size_in_bytes": 8620
+      },
+      {
+        "_path": "include/kthread.h",
+        "path_type": "hardlink",
+        "sha256": "ed92aa2bd8692741cbf787adace74ba72583a2bb18a450e07ef03fc9ce1fc9a9",
+        "sha256_in_prefix": "ed92aa2bd8692741cbf787adace74ba72583a2bb18a450e07ef03fc9ce1fc9a9",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "include/kvec.h",
+        "path_type": "hardlink",
+        "sha256": "074ac9bdd03acc0763f4e8640bb62fb894200c217d6333e0fb9eb06353431a30",
+        "sha256_in_prefix": "074ac9bdd03acc0763f4e8640bb62fb894200c217d6333e0fb9eb06353431a30",
+        "size_in_bytes": 3029
+      },
+      {
+        "_path": "include/minimap.h",
+        "path_type": "hardlink",
+        "sha256": "565a4f8d2be2ccde97eaa28eb4a57cb575535bd3fd0af5a0d608304a91629729",
+        "sha256_in_prefix": "565a4f8d2be2ccde97eaa28eb4a57cb575535bd3fd0af5a0d608304a91629729",
+        "size_in_bytes": 14346
+      },
+      {
+        "_path": "include/mmpriv.h",
+        "path_type": "hardlink",
+        "sha256": "bc0dc45a33cac6353e98d60d51c7582a8fa8d60893e66b45552e14b354b0a875",
+        "sha256_in_prefix": "bc0dc45a33cac6353e98d60d51c7582a8fa8d60893e66b45552e14b354b0a875",
+        "size_in_bytes": 6319
+      },
+      {
+        "_path": "include/sdust.h",
+        "path_type": "hardlink",
+        "sha256": "86ebb6b0061166328747e49222bc74e4d2089f45d302bda28bd233e977795004",
+        "sha256_in_prefix": "86ebb6b0061166328747e49222bc74e4d2089f45d302bda28bd233e977795004",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "lib/libminimap2.a",
+        "path_type": "hardlink",
+        "sha256": "a39acb9faf9ff593ad74d5925ee93bac978c2db58eb9cbbab596c6976c29af8d",
+        "sha256_in_prefix": "a39acb9faf9ff593ad74d5925ee93bac978c2db58eb9cbbab596c6976c29af8d",
+        "size_in_bytes": 1199704
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "de902cd1985d863201e431e2791609313e080bfce4271f54d9015241bb7273bc",
+  "size": 1120400,
+  "subdir": "linux-64",
+  "timestamp": 1711553421000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/minimap2-2.28-he4a0461_0.tar.bz2",
+  "version": "2.28"
+}

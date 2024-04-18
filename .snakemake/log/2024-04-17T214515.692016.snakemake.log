@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule LSCM1_Arrange_Assembly_by_RaGOO in file /home/lazo_ozal/project/Snakefile, line 379:
+Missing input files for rule LSCM1_Arrange_Assembly_by_RaGOO:
+    output: results/LSCM1_Arrange_Assembly_by_RaGOO/ragoo_output/ragoo.fasta
+    affected files:
+        LmajorFriedlin_Genome.fasta

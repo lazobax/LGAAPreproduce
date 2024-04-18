@@ -1,0 +1,47 @@
+{
+  "build": "h2c6b66d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libsqlite 3.45.3 h2797004_0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "ncurses >=6.4.20240210,<7.0a0",
+    "readline >=8.2,<9.0a0"
+  ],
+  "extracted_package_dir": "/home/lazo_ozal/miniforge3/pkgs/sqlite-3.45.3-h2c6b66d_0",
+  "features": "",
+  "files": [
+    "bin/sqlite3"
+  ],
+  "fn": "sqlite-3.45.3-h2c6b66d_0.conda",
+  "license": "Unlicense",
+  "link": {
+    "source": "/home/lazo_ozal/miniforge3/pkgs/sqlite-3.45.3-h2c6b66d_0",
+    "type": 1
+  },
+  "md5": "be7d70f2db41b674733667bdd69bd000",
+  "name": "sqlite",
+  "package_tarball_full_path": "/home/lazo_ozal/miniforge3/pkgs/sqlite-3.45.3-h2c6b66d_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sqlite3",
+        "path_type": "hardlink",
+        "sha256": "f7a2fd4cbbb330895efc8089347049614c3e7eb4890856ddf0f7dc1d095c4b72",
+        "sha256_in_prefix": "f7a2fd4cbbb330895efc8089347049614c3e7eb4890856ddf0f7dc1d095c4b72",
+        "size_in_bytes": 1840024
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "945ac702e2bd8cc59cc780dfc37c18255d5e538c8433dc290c0edbad2bcbaeb4",
+  "size": 848611,
+  "subdir": "linux-64",
+  "timestamp": 1713367461000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sqlite-3.45.3-h2c6b66d_0.conda",
+  "version": "3.45.3"
+}

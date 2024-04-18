@@ -1,0 +1,6 @@
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/bin/cpanm relocate_as=../../../../../../../bin/cpanm
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/lib/site_perl/5.26.2/App/cpanminus.pm relocate_as=../../../../App/cpanminus.pm
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/lib/site_perl/5.26.2/App/cpanminus/fatscript.pm relocate_as=../../../../App/cpanminus/fatscript.pm
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/man/man1/cpanm.1 relocate_as=../../../../../../../man/man1/cpanm.1
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/man/man3/App::cpanminus.3 relocate_as=../../../../../../../man/man3/App::cpanminus.3
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/man/man3/App::cpanminus::fatscript.3 relocate_as=../../../../../../../man/man3/App::cpanminus::fatscript.3

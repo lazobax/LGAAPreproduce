@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                    count
+-------------------  -------
+Download_Short_Read        1
+total                      1
+
+Select jobs to execute...
+
+[Wed Apr 17 20:57:20 2024]
+rule Download_Short_Read:
+    output: data/LSCM1/SRR13558784_1.fastq, data/LSCM1/SRR13558784_2.fastq, data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558785_2.fastq, data/LSCM1/SRR13558792_1.fastq, data/LSCM1/SRR13558792_2.fastq
+    jobid: 0
+    reason: Missing output files: data/LSCM1/SRR13558784_1.fastq, data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558785_2.fastq, data/LSCM1/SRR13558792_2.fastq, data/LSCM1/SRR13558784_2.fastq, data/LSCM1/SRR13558792_1.fastq
+    resources: tmpdir=/tmp
+
+[Wed Apr 17 20:57:20 2024]
+Error in rule Download_Short_Read:
+    jobid: 0
+    output: data/LSCM1/SRR13558784_1.fastq, data/LSCM1/SRR13558784_2.fastq, data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558785_2.fastq, data/LSCM1/SRR13558792_1.fastq, data/LSCM1/SRR13558792_2.fastq
+    conda-env: /home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_
+    shell:
+        fasterq-dump -t data/temp --split-files --outdir data/LSCM1/ SRR13558784 SRR13558785 SRR13558792
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-04-17T205720.213080.snakemake.log

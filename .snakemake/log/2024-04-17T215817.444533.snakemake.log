@@ -1,0 +1,111 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                             count
+--------------------------------------------  -------
+Download_Long_Read                                  1
+Download_Short_Read                                 1
+LSCM1_Arrange_Assembly_by_RaGOO                     1
+LSCM1_Assembly_LongRead_by_Flye                     1
+LSCM1_Clean_PolishedAssembly_by_funannotate         1
+LSCM1_Consensus_Assembly_by_BCFtools                1
+LSCM1_Consensus_PolishedAssembly_by_BCFtools        1
+LSCM1_Filter_Assembly_by_BCFtools                   1
+LSCM1_Filter_PolishedAssembly_by_BCFtools           1
+LSCM1_Final_assembly                                1
+LSCM1_Index_Assembly_by_BCFtools                    1
+LSCM1_Index_Assembly_by_Samtools                    1
+LSCM1_Index_PolishedAssembly_by_BCFtools            1
+LSCM1_Index_ShortReads_by_Samtools                  1
+LSCM1_Map_PolishedAssembly_by_minimap2              1
+LSCM1_Map_ShortReads_by_minimap2                    1
+LSCM1_Mpileup_Assembly_by_BCFtools                  1
+LSCM1_Mpileup_PolishedAssembly_by_BCFtools          1
+LSCM1_Norm_Assembly_by_BCFtools                     1
+LSCM1_Norm_PolishedAssembly_by_BCFtools             1
+LSCM1_Polish_Assembly_by_Pilon                      1
+LSCM1_QC_Assemblies_by_QUAST                        1
+LSCM1_Sort_PolishedAssembly_by_Samtools             1
+LSCM1_Sort_PolishedAssembly_by_funannotate          1
+LSCM1_Sort_ShortReads_by_Samtools                   1
+LSCM1_View_PolishedAssembly_by_Samtools             1
+LSCM1_View_ShortReads_by_Samtools                   1
+LSCM1_aggregate_reads                               1
+LSCM1_index_PolishedAssembly_LSCM1                  1
+LSCM1_pre_RaGOO_Polished_Assembly                   1
+LSCM1_pre_RaGOO_Short_reads                         1
+download_Evidance1                                  1
+total                                              32
+
+Select jobs to execute...
+
+[Wed Apr 17 21:58:18 2024]
+rule download_Evidance1:
+    output: data/ref/LmajorFriedlin_Genome.fasta
+    jobid: 29
+    reason: Missing output files: data/ref/LmajorFriedlin_Genome.fasta
+    resources: tmpdir=/tmp
+
+
+[Wed Apr 17 21:58:18 2024]
+rule Download_Short_Read:
+    output: data/LSCM1/SRR13558784_1.fastq, data/LSCM1/SRR13558784_2.fastq, data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558785_2.fastq, data/LSCM1/SRR13558792_1.fastq, data/LSCM1/SRR13558792_2.fastq
+    jobid: 11
+    reason: Software environment definition has changed since last execution
+    resources: tmpdir=/tmp
+
+
+Activating conda environment: sra-tools
+[Wed Apr 17 21:58:18 2024]
+rule Download_Long_Read:
+    output: data/LSCM1/SRR13558786.fastq, data/LSCM1/SRR13558788.fastq, data/LSCM1/SRR13558790.fastq, data/LSCM1/SRR13558793.fastq
+    jobid: 2
+    reason: Missing output files: data/LSCM1/SRR13558786.fastq, data/LSCM1/SRR13558793.fastq, data/LSCM1/SRR13558788.fastq, data/LSCM1/SRR13558790.fastq
+    resources: tmpdir=/tmp
+
+Activating conda environment: sra-tools
+[Wed Apr 17 21:58:21 2024]
+Finished job 29.
+1 of 32 steps (3%) done
+[Wed Apr 17 22:16:44 2024]
+Finished job 11.
+2 of 32 steps (6%) done
+Select jobs to execute...
+
+[Wed Apr 17 22:16:44 2024]
+rule LSCM1_aggregate_reads:
+    input: data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558785_2.fastq, data/LSCM1/SRR13558792_1.fastq, data/LSCM1/SRR13558792_2.fastq, data/LSCM1/SRR13558784_1.fastq, data/LSCM1/SRR13558784_2.fastq
+    output: data/LSCM1/LSCM1_Short_reads.fastq
+    jobid: 26
+    reason: Missing output files: data/LSCM1/LSCM1_Short_reads.fastq; Input files updated by another job: data/LSCM1/SRR13558792_1.fastq, data/LSCM1/SRR13558784_2.fastq, data/LSCM1/SRR13558792_2.fastq, data/LSCM1/SRR13558784_1.fastq, data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558785_2.fastq
+    resources: tmpdir=/tmp
+
+[Wed Apr 17 22:17:00 2024]
+Finished job 26.
+3 of 32 steps (9%) done
+Select jobs to execute...
+
+[Wed Apr 17 22:17:00 2024]
+rule LSCM1_pre_RaGOO_Short_reads:
+    input: data/LSCM1/LSCM1_Short_reads.fastq
+    output: LSCM1_Short_reads.fastq
+    jobid: 25
+    reason: Missing output files: LSCM1_Short_reads.fastq; Input files updated by another job: data/LSCM1/LSCM1_Short_reads.fastq
+    resources: tmpdir=/tmp
+
+[Wed Apr 17 22:17:01 2024]
+Finished job 25.
+4 of 32 steps (12%) done
+Terminating processes on user request, this might take some time.
+[Wed Apr 17 22:35:51 2024]
+Error in rule Download_Long_Read:
+    jobid: 2
+    output: data/LSCM1/SRR13558786.fastq, data/LSCM1/SRR13558788.fastq, data/LSCM1/SRR13558790.fastq, data/LSCM1/SRR13558793.fastq
+    conda-env: sra-tools
+    shell:
+        fasterq-dump -t data/temp --outdir data/LSCM1/ SRR13558786 SRR13558788 SRR13558790 SRR13558793 -p
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2024-04-17T215817.444533.snakemake.log

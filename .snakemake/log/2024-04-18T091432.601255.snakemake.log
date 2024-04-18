@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                             count
+--------------------------------------------  -------
+Download_Long_Read                                  1
+LSCM1_Arrange_Assembly_by_RaGOO                     1
+LSCM1_Assembly_LongRead_by_Flye                     1
+LSCM1_Clean_PolishedAssembly_by_funannotate         1
+LSCM1_Consensus_Assembly_by_BCFtools                1
+LSCM1_Consensus_PolishedAssembly_by_BCFtools        1
+LSCM1_Filter_Assembly_by_BCFtools                   1
+LSCM1_Filter_PolishedAssembly_by_BCFtools           1
+LSCM1_Final_assembly                                1
+LSCM1_Index_Assembly_by_BCFtools                    1
+LSCM1_Index_Assembly_by_Samtools                    1
+LSCM1_Index_PolishedAssembly_by_BCFtools            1
+LSCM1_Index_ShortReads_by_Samtools                  1
+LSCM1_Map_PolishedAssembly_by_minimap2              1
+LSCM1_Map_ShortReads_by_minimap2                    1
+LSCM1_Mpileup_Assembly_by_BCFtools                  1
+LSCM1_Mpileup_PolishedAssembly_by_BCFtools          1
+LSCM1_Norm_Assembly_by_BCFtools                     1
+LSCM1_Norm_PolishedAssembly_by_BCFtools             1
+LSCM1_Polish_Assembly_by_Pilon                      1
+LSCM1_QC_Assemblies_by_QUAST                        1
+LSCM1_Sort_PolishedAssembly_by_Samtools             1
+LSCM1_Sort_PolishedAssembly_by_funannotate          1
+LSCM1_Sort_ShortReads_by_Samtools                   1
+LSCM1_View_PolishedAssembly_by_Samtools             1
+LSCM1_View_ShortReads_by_Samtools                   1
+LSCM1_index_PolishedAssembly_LSCM1                  1
+LSCM1_pre_RaGOO_Polished_Assembly                   1
+total                                              28
+
+Select jobs to execute...
+
+[Thu Apr 18 09:14:33 2024]
+rule Download_Long_Read:
+    output: data/LSCM1/SRR13558786.fastq, data/LSCM1/SRR13558788.fastq, data/LSCM1/SRR13558790.fastq, data/LSCM1/SRR13558793.fastq
+    jobid: 2
+    reason: Forced execution
+    resources: tmpdir=/tmp
+
+Activating conda environment: sra-tools
+[Thu Apr 18 10:40:04 2024]
+Finished job 2.
+1 of 28 steps (4%) done
+Select jobs to execute...
+
+[Thu Apr 18 10:40:04 2024]
+rule LSCM1_Assembly_LongRead_by_Flye:
+    input: data/LSCM1/SRR13558793.fastq, data/LSCM1/SRR13558790.fastq, data/LSCM1/SRR13558788.fastq, data/LSCM1/SRR13558786.fastq
+    output: results/LSCM1_Assembly_LongRead_by_Flye/assembly.fasta
+    jobid: 1
+    reason: Missing output files: results/LSCM1_Assembly_LongRead_by_Flye/assembly.fasta; Input files updated by another job: data/LSCM1/SRR13558788.fastq, data/LSCM1/SRR13558790.fastq, data/LSCM1/SRR13558786.fastq, data/LSCM1/SRR13558793.fastq
+    resources: tmpdir=/tmp
+
+Activating conda environment: Flye
+[Thu Apr 18 10:55:29 2024]
+Error in rule LSCM1_Assembly_LongRead_by_Flye:
+    jobid: 1
+    input: data/LSCM1/SRR13558793.fastq, data/LSCM1/SRR13558790.fastq, data/LSCM1/SRR13558788.fastq, data/LSCM1/SRR13558786.fastq
+    output: results/LSCM1_Assembly_LongRead_by_Flye/assembly.fasta
+    conda-env: Flye
+    shell:
+        flye --nano-raw data/LSCM1/SRR13558793.fastq --nano-raw data/LSCM1/SRR13558790.fastq --nano-raw data/LSCM1/SRR13558788.fastq --nano-raw data/LSCM1/SRR13558786.fastq --genome-size 35m --threads 1 -o results/LSCM1_Assembly_LongRead_by_Flye 2>&1 | tee 
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-04-18T091432.601255.snakemake.log

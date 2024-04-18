@@ -1,0 +1,142 @@
+{
+  "build": "py37h39e3cac_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/imperial-college-research-computing/linux-64",
+  "constrains": [],
+  "depends": [
+    "intervaltree",
+    "minimap2",
+    "numpy",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "extracted_package_dir": "/home/lazo_ozal/miniforge3/pkgs/ragoo-1.1-py37h39e3cac_0",
+  "features": "",
+  "files": [
+    "bin/Assemblytics_between_alignments.pl",
+    "bin/Assemblytics_uniq_anchor.py",
+    "bin/Assemblytics_within_alignment.py",
+    "bin/filter_gap_SVs.py",
+    "bin/lift_over.py",
+    "bin/make_agp.py",
+    "bin/ragoo.py",
+    "bin/sam2delta.py",
+    "bin/setup.py",
+    "lib/python3.7/site-packages/RaGOO-1.1-py3.7.egg",
+    "lib/python3.7/site-packages/RaGOO.pth"
+  ],
+  "fn": "ragoo-1.1-py37h39e3cac_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/lazo_ozal/miniforge3/pkgs/ragoo-1.1-py37h39e3cac_0",
+    "type": 1
+  },
+  "md5": "d1868eed70959bba6b6c4928dbb19b58",
+  "name": "ragoo",
+  "package_tarball_full_path": "/home/lazo_ozal/miniforge3/pkgs/ragoo-1.1-py37h39e3cac_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/Assemblytics_between_alignments.pl",
+        "path_type": "hardlink",
+        "sha256": "7f1d6d4b44bdbceb0729ec7fcc65b994f5433835190e0bb5e617c03674cb88c6",
+        "sha256_in_prefix": "7f1d6d4b44bdbceb0729ec7fcc65b994f5433835190e0bb5e617c03674cb88c6",
+        "size_in_bytes": 14995
+      },
+      {
+        "_path": "bin/Assemblytics_uniq_anchor.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "d39ac3e45e584d27a4c69955147666603ef25a4697f6e4e93942cde082b95eb9",
+        "sha256_in_prefix": "08fd07cf2c0362b433b6900eece4578f6d5a5516d9e053b389d37c04547da965",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "bin/Assemblytics_within_alignment.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "3337f633296e1ef9dcb1ce1f3f3f74cb744b20fcc20b62d7330f6fbd7e923dff",
+        "sha256_in_prefix": "9ade1dda610470794187066b477c2b6e82b22cc6459e668e3488fa2eac51f719",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "bin/filter_gap_SVs.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "d89c8f93de8f3f2403e76029271832e8fac63b24b5fd7954902cd533422835ab",
+        "sha256_in_prefix": "612e42bd446e9ea164728e5045b1a1bb18d57ce50c30e5fd8baf6e6ea6131b10",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "bin/lift_over.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "7aec57d6cac1bdd98dbbb4ff9d7b780ed241c900b26c75121ebb97febed03af7",
+        "sha256_in_prefix": "451c41c7a46cd6340467a9b1cf04fcdc2f9b12d10ad38caae9ff75a2b5545527",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "bin/make_agp.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "3f00a711889e0fe7db8a9eaf8b383efa647330c5ab584f0375ad0c06b7942c39",
+        "sha256_in_prefix": "ef15b9341c9f4d474ec0ca9219433846e46d0044dc09115e748968ad222b3921",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "bin/ragoo.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "dce2a5ac8a047bb8c1c9cdbfee5aad93a57b18171bb4809f6da811fd8600a101",
+        "sha256_in_prefix": "2736359c26b04edf663b7aad554c6a0ad9c78e93920733842172f019b6ab3c6f",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "bin/sam2delta.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "cd6479a739c1488264ddd1672bdfd107086172ab97b6f83196c7e66723cd0f76",
+        "sha256_in_prefix": "3140b974e5bfbb603e8d04efe45430d95bf2e239a26adff74637ea4e943edbe4",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "bin/setup.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/slacalle/miniconda3/envs/build_bioconda/conda-bld/ragoo_1590575452594/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "d4459fd2b1060f68bd4466b8828705ab3317ca5dc230492ed7dc779c68c91b24",
+        "sha256_in_prefix": "4bfb6053bf2ea07feb9ab8a7830fbd4d0b1e7f085d8c22757d9e129acaf3f7b0",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "lib/python3.7/site-packages/RaGOO-1.1-py3.7.egg",
+        "path_type": "hardlink",
+        "sha256": "577c903a80dccbf5dd7a20be831c17860212e88bbbc37731442621cc54103276",
+        "sha256_in_prefix": "577c903a80dccbf5dd7a20be831c17860212e88bbbc37731442621cc54103276",
+        "size_in_bytes": 59700
+      },
+      {
+        "_path": "lib/python3.7/site-packages/RaGOO.pth",
+        "path_type": "hardlink",
+        "sha256": "67c81a5e8ea617fb9b8c383deea2edae70eee4bd739067d255eef77dc711d3d8",
+        "sha256_in_prefix": "67c81a5e8ea617fb9b8c383deea2edae70eee4bd739067d255eef77dc711d3d8",
+        "size_in_bytes": 22
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ragoo=1.1",
+  "size": 68678,
+  "subdir": "linux-64",
+  "timestamp": 1590575622000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/imperial-college-research-computing/linux-64/ragoo-1.1-py37h39e3cac_0.tar.bz2",
+  "version": "1.1"
+}

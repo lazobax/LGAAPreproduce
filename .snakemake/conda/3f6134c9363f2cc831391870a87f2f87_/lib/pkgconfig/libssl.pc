@@ -1,0 +1,11 @@
+prefix=/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 3.2.1
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}

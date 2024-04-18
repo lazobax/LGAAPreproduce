@@ -1,0 +1,76 @@
+[2024-04-18 10:40:05] root: INFO: Starting Flye 2.8.2-b1689
+[2024-04-18 10:40:05] root: DEBUG: Cmd: /home/lazo_ozal/miniforge3/envs/Flye/bin/flye --nano-raw data/LSCM1/SRR13558793.fastq --nano-raw data/LSCM1/SRR13558790.fastq --nano-raw data/LSCM1/SRR13558788.fastq --nano-raw data/LSCM1/SRR13558786.fastq --genome-size 35m --threads 1 -o results/LSCM1_Assembly_LongRead_by_Flye
+[2024-04-18 10:40:05] root: DEBUG: Python version: 3.8.19 | packaged by conda-forge | (default, Mar 20 2024, 12:47:35) 
+[GCC 12.3.0]
+[2024-04-18 10:40:05] root: INFO: >>>STAGE: configure
+[2024-04-18 10:40:05] root: INFO: Configuring run
+[2024-04-18 10:40:47] root: INFO: Total read length: 3633091333
+[2024-04-18 10:40:47] root: INFO: Input genome size: 35000000
+[2024-04-18 10:40:47] root: INFO: Estimated coverage: 103
+[2024-04-18 10:40:47] root: INFO: Reads N50/N90: 11644 / 3310
+[2024-04-18 10:40:47] root: INFO: Minimum overlap set to 3000
+[2024-04-18 10:40:47] root: INFO: >>>STAGE: assembly
+[2024-04-18 10:40:47] root: INFO: Assembling disjointigs
+[2024-04-18 10:40:47] root: DEBUG: -----Begin assembly log------
+[2024-04-18 10:40:47] root: DEBUG: Running: flye-modules assemble --reads data/LSCM1/SRR13558786.fastq --out-asm /home/lazo_ozal/project/results/LSCM1_Assembly_LongRead_by_Flye/00-assembly/draft_assembly.fasta --config /home/lazo_ozal/miniforge3/envs/Flye/lib/python3.8/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg --log /home/lazo_ozal/project/results/LSCM1_Assembly_LongRead_by_Flye/flye.log --threads 1 --genome-size 35000000 --min-ovlp 3000
+[2024-04-18 10:40:47] DEBUG: Build date: Dec  9 2020 22:42:32
+[2024-04-18 10:40:47] DEBUG: Total RAM: 11 Gb
+[2024-04-18 10:40:47] DEBUG: Available RAM: 7 Gb
+[2024-04-18 10:40:47] DEBUG: Total CPUs: 8
+[2024-04-18 10:40:47] DEBUG: Loading /home/lazo_ozal/miniforge3/envs/Flye/lib/python3.8/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg
+[2024-04-18 10:40:47] DEBUG: Loading /home/lazo_ozal/miniforge3/envs/Flye/lib/python3.8/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2024-04-18 10:40:47] DEBUG: 	big_genome_threshold=29000000
+[2024-04-18 10:40:47] DEBUG: 	meta_read_filter_kmer_freq=100
+[2024-04-18 10:40:47] DEBUG: 	max_coverage_drop_rate=5
+[2024-04-18 10:40:47] DEBUG: 	max_extensions_drop_rate=5
+[2024-04-18 10:40:47] DEBUG: 	chimera_window=100
+[2024-04-18 10:40:47] DEBUG: 	min_reads_in_disjointig=4
+[2024-04-18 10:40:47] DEBUG: 	max_inner_reads=10
+[2024-04-18 10:40:47] DEBUG: 	max_inner_fraction=0.25
+[2024-04-18 10:40:47] DEBUG: 	max_separation=500
+[2024-04-18 10:40:47] DEBUG: 	unique_edge_length=50000
+[2024-04-18 10:40:47] DEBUG: 	min_repeat_res_support=0.51
+[2024-04-18 10:40:47] DEBUG: 	out_paths_ratio=5
+[2024-04-18 10:40:47] DEBUG: 	graph_cov_drop_rate=5
+[2024-04-18 10:40:47] DEBUG: 	coverage_estimate_window=100
+[2024-04-18 10:40:47] DEBUG: 	max_bubble_length=50000
+[2024-04-18 10:40:47] DEBUG: 	loop_coverage_rate=1.5
+[2024-04-18 10:40:47] DEBUG: 	repeat_edge_cov_mult=1.75
+[2024-04-18 10:40:47] DEBUG: 	weak_detach_rate=5
+[2024-04-18 10:40:47] DEBUG: 	tip_coverage_rate=2
+[2024-04-18 10:40:47] DEBUG: 	tip_length_rate=2
+[2024-04-18 10:40:47] DEBUG: 	low_cutoff_warning=1
+[2024-04-18 10:40:47] DEBUG: 	hard_min_coverage_rate=10
+[2024-04-18 10:40:47] DEBUG: 	kmer_size=17
+[2024-04-18 10:40:47] DEBUG: 	use_minimizers=0
+[2024-04-18 10:40:47] DEBUG: 	reads_base_alignment=0
+[2024-04-18 10:40:47] DEBUG: 	assemble_kmer_sample=1
+[2024-04-18 10:40:47] DEBUG: 	repeat_graph_kmer_sample=1
+[2024-04-18 10:40:47] DEBUG: 	read_align_kmer_sample=1
+[2024-04-18 10:40:47] DEBUG: 	meta_read_top_kmer_rate=0.40
+[2024-04-18 10:40:47] DEBUG: 	maximum_jump=1500
+[2024-04-18 10:40:47] DEBUG: 	maximum_overhang=1500
+[2024-04-18 10:40:47] DEBUG: 	repeat_kmer_rate=100
+[2024-04-18 10:40:47] DEBUG: 	assemble_ovlp_divergence=0.10
+[2024-04-18 10:40:47] DEBUG: 	assemble_divergence_relative=1
+[2024-04-18 10:40:47] DEBUG: 	repeat_graph_ovlp_divergence=0.08
+[2024-04-18 10:40:47] DEBUG: 	read_align_ovlp_divergence=0.25
+[2024-04-18 10:40:47] DEBUG: 	hpc_scoring_on=0
+[2024-04-18 10:40:47] DEBUG: 	add_unassembled_reads=0
+[2024-04-18 10:40:47] DEBUG: 	extend_contigs_with_repeats=0
+[2024-04-18 10:40:47] DEBUG: 	min_read_cov_cutoff=3
+[2024-04-18 10:40:47] DEBUG: 	short_tip_length=20000
+[2024-04-18 10:40:47] DEBUG: 	long_tip_length=100000
+[2024-04-18 10:40:47] DEBUG: Running with k-mer size: 17
+[2024-04-18 10:40:47] DEBUG: Running with minimum overlap 3000
+[2024-04-18 10:40:47] DEBUG: Metagenome mode: N
+[2024-04-18 10:40:47] INFO: Reading sequences
+[2024-04-18 10:40:56] DEBUG: Building positional index
+[2024-04-18 10:40:57] DEBUG: Total sequence: 3309579836 bp
+[2024-04-18 10:41:02] INFO: Counting k-mers:
+[2024-04-18 10:54:08] DEBUG: Updating k-mer histogram
+[2024-04-18 10:55:20] DEBUG: Hash size: 32348302
+[2024-04-18 10:55:20] DEBUG: Total k-mers 934160392
+[2024-04-18 10:55:29] root: ERROR: Looks like the system ran out of memory
+[2024-04-18 10:55:29] root: ERROR: Command '['flye-modules', 'assemble', '--reads', 'data/LSCM1/SRR13558786.fastq', '--out-asm', '/home/lazo_ozal/project/results/LSCM1_Assembly_LongRead_by_Flye/00-assembly/draft_assembly.fasta', '--config', '/home/lazo_ozal/miniforge3/envs/Flye/lib/python3.8/site-packages/flye/config/bin_cfg/asm_raw_reads.cfg', '--log', '/home/lazo_ozal/project/results/LSCM1_Assembly_LongRead_by_Flye/flye.log', '--threads', '1', '--genome-size', '35000000', '--min-ovlp', '3000']' died with <Signals.SIGKILL: 9>.
+[2024-04-18 10:55:29] root: ERROR: Pipeline aborted

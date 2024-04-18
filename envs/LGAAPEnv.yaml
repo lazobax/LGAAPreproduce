@@ -1,0 +1,22 @@
+name: LGAAP-Reproduce
+channels:
+ - bioconda
+ - imperial-college-research-computing
+ - conda-forge
+dependencies:
+ - agat=0.6.0
+ - bcftools=1.11
+ - bedtools=2.30.0
+ - blast=2.10.1
+ - busco=5.7.1
+ - flye=2.8.2
+ - funannotate=1.7.1
+ - gaas=1.2.0
+ - gnuplot=5.0.4
+ - minimap2=2.17
+ - mummer=3.23
+ - pilon=1.23
+ - quast=5.0.2
+ - ragoo=1.1
+ - samtools=1.11
+ - sra-tools=2.10.9

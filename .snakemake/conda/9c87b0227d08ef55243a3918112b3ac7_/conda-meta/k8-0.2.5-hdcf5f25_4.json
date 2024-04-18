@@ -1,0 +1,46 @@
+{
+  "build": "hdcf5f25_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "zlib"
+  ],
+  "extracted_package_dir": "/home/lazo_ozal/miniforge3/pkgs/k8-0.2.5-hdcf5f25_4",
+  "features": "",
+  "files": [
+    "bin/k8"
+  ],
+  "fn": "k8-0.2.5-hdcf5f25_4.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/lazo_ozal/miniforge3/pkgs/k8-0.2.5-hdcf5f25_4",
+    "type": 1
+  },
+  "md5": "d3c49a96ae45864706037702775ca7c2",
+  "name": "k8",
+  "package_tarball_full_path": "/home/lazo_ozal/miniforge3/pkgs/k8-0.2.5-hdcf5f25_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/k8",
+        "path_type": "hardlink",
+        "sha256": "606cce57f0082a6e6239f0d15b5c9946991f61083dc3e6f91908e1d8d9bba190",
+        "sha256_in_prefix": "606cce57f0082a6e6239f0d15b5c9946991f61083dc3e6f91908e1d8d9bba190",
+        "size_in_bytes": 4959352
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "15fdb6e30f0806c07430c8be3a990416432579fa0123ec37b745fcc9e813371a",
+  "size": 1752355,
+  "subdir": "linux-64",
+  "timestamp": 1684200915000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/k8-0.2.5-hdcf5f25_4.tar.bz2",
+  "version": "0.2.5"
+}

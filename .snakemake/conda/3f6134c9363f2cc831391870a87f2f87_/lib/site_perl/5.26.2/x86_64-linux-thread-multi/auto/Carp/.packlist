@@ -1,0 +1,3 @@
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/lib/site_perl/5.26.2/Carp.pm relocate_as=../../../Carp.pm
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/lib/site_perl/5.26.2/Carp/Heavy.pm relocate_as=../../../Carp/Heavy.pm
+/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/man/man3/Carp.3 relocate_as=../../../../../../man/man3/Carp.3

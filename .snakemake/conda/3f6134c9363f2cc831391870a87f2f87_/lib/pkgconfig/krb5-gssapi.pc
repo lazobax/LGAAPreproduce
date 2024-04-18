@@ -1,0 +1,10 @@
+prefix=/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+Name: krb5-gssapi
+Description: Kerberos implementation of the GSSAPI
+Version: 1.21.2
+Requires: mit-krb5-gssapi

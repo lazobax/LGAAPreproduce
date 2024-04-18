@@ -1,0 +1,12 @@
+prefix=/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+Name: gssrpc
+Description: GSSAPI RPC implementation
+Version: 1.21.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgssrpc
+Requires.private: mit-krb5-gssapi

@@ -1,0 +1,22 @@
+#***************************************************************************
+# Project        ___       __ _ _ __ ___  ___ 
+#               / __|____ / _` | '__/ _ \/ __|
+#              | (_|_____| (_| | | |  __/\__ \
+#               \___|     \__,_|_|  \___||___/
+#
+# Copyright (C) The c-ares project and its contributors
+# SPDX-License-Identifier: MIT
+prefix=/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_
+exec_prefix=/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/bin
+libdir=/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/lib
+includedir=/home/lazo_ozal/project/.snakemake/conda/3f6134c9363f2cc831391870a87f2f87_/include
+
+Name: c-ares
+URL: https://c-ares.org/
+Description: asynchronous DNS lookup library
+Version: 1.28.1
+Requires: 
+Requires.private: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lcares
+Libs.private: 

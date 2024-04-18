@@ -1,0 +1,39 @@
+==> 2024-04-17 21:53:51 <==
+# cmd: /home/lazo_ozal/miniforge3/bin/mamba create --quiet --file /home/lazo_ozal/project/.snakemake/conda/9c87b0227d08ef55243a3918112b3ac7_.yaml --prefix /home/lazo_ozal/project/.snakemake/conda/9c87b0227d08ef55243a3918112b3ac7_
+# conda version: 24.3.0
++bioconda/linux-64::k8-0.2.5-hdcf5f25_4
++bioconda/linux-64::minimap2-2.28-he4a0461_0
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
++conda-forge/linux-64::ca-certificates-2024.2.2-hbcca054_0
++conda-forge/linux-64::ld_impl_linux-64-2.40-h41732ed_0
++conda-forge/linux-64::libblas-3.9.0-22_linux64_openblas
++conda-forge/linux-64::libcblas-3.9.0-22_linux64_openblas
++conda-forge/linux-64::libffi-3.4.2-h7f98852_5
++conda-forge/linux-64::libgcc-ng-13.2.0-h807b86a_5
++conda-forge/linux-64::libgfortran-ng-13.2.0-h69a702a_5
++conda-forge/linux-64::libgfortran5-13.2.0-ha4646dd_5
++conda-forge/linux-64::libgomp-13.2.0-h807b86a_5
++conda-forge/linux-64::liblapack-3.9.0-22_linux64_openblas
++conda-forge/linux-64::libnsl-2.0.1-hd590300_0
++conda-forge/linux-64::libopenblas-0.3.27-pthreads_h413a1c8_0
++conda-forge/linux-64::libsqlite-3.45.3-h2797004_0
++conda-forge/linux-64::libstdcxx-ng-13.2.0-h7e041cc_5
++conda-forge/linux-64::libzlib-1.2.13-hd590300_5
++conda-forge/linux-64::ncurses-6.4.20240210-h59595ed_0
++conda-forge/linux-64::numpy-1.21.6-py37h976b520_0
++conda-forge/linux-64::openssl-3.2.1-hd590300_1
++conda-forge/linux-64::python-3.7.12-hf930737_100_cpython
++conda-forge/linux-64::python_abi-3.7-4_cp37m
++conda-forge/linux-64::readline-8.2-h8228510_1
++conda-forge/linux-64::sqlite-3.45.3-h2c6b66d_0
++conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101
++conda-forge/linux-64::xz-5.2.6-h166bdaf_0
++conda-forge/linux-64::zlib-1.2.13-hd590300_5
++conda-forge/noarch::intervaltree-3.1.0-pyhd8ed1ab_1
++conda-forge/noarch::pip-24.0-pyhd8ed1ab_0
++conda-forge/noarch::setuptools-69.0.3-pyhd8ed1ab_0
++conda-forge/noarch::sortedcontainers-2.4.0-pyhd8ed1ab_0
++conda-forge/noarch::wheel-0.42.0-pyhd8ed1ab_0
++imperial-college-research-computing/linux-64::ragoo-1.1-py37h39e3cac_0
+# update specs: ['ragoo=1.1']

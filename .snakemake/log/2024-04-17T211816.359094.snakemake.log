@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment envs/sra-tools.yaml...
+Downloading and installing remote packages.
+Environment for /home/lazo_ozal/project/envs/sra-tools.yaml created (location: .snakemake/conda/3f6134c9363f2cc831391870a87f2f87_)
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count
+-------------------  -------
+Download_Short_Read        1
+total                      1
+
+Select jobs to execute...
+
+[Wed Apr 17 21:18:34 2024]
+rule Download_Short_Read:
+    output: data/LSCM1/SRR13558784_1.fastq, data/LSCM1/SRR13558784_2.fastq, data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558785_2.fastq, data/LSCM1/SRR13558792_1.fastq, data/LSCM1/SRR13558792_2.fastq
+    jobid: 0
+    reason: Missing output files: data/LSCM1/SRR13558784_2.fastq, data/LSCM1/SRR13558785_1.fastq, data/LSCM1/SRR13558792_2.fastq, data/LSCM1/SRR13558792_1.fastq, data/LSCM1/SRR13558785_2.fastq, data/LSCM1/SRR13558784_1.fastq
+    resources: tmpdir=/tmp
+
+Activating conda environment: .snakemake/conda/3f6134c9363f2cc831391870a87f2f87_
+[Wed Apr 17 21:48:26 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2024-04-17T211816.359094.snakemake.log
